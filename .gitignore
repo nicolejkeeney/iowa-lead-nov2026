@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Node (app)
+node_modules/
+dist/
+
+# Large or generated data (archive raw EPA pulls separately; decide what to track later)
+*.zarr/
+*.nc
+*.grib2
+
+# OS / editor
+.DS_Store
+.claude/settings.local.json
